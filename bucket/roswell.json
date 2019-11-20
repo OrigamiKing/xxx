@@ -1,0 +1,27 @@
+{
+  "homepage": "https://github.com/roswell/roswell",
+  "description": "A Lisp implementation installer/manager",
+  "version": "19.09.12.102",
+  "license": "MIT",
+  "architecture": {
+      "64bit": {
+          "url": "https://github.com/roswell/roswell/releases/download/v19.09.12.102/roswell_19.09.12.102_amd64.zip",
+          "hash": "A7CF5AB6EB72E3934B170EBA144525F225BFED694A040FBAE2922EBC36B57103",
+          "extract_dir": "roswell"
+      },
+      "32bit": {
+          "url": "https://github.com/roswell/roswell/releases/download/v19.09.12.102/roswell_19.09.12.102_i686.zip",
+          "hash": "B2268C3CA43808C67E2B5632A5F26A8BA3FE30D06A7F8284237B3E2264D4E95C",
+          "extract_dir": "roswell"
+      }
+  },
+  "bin": [
+    "ros.exe"
+  ],
+  "shortcuts": [
+      [
+          "ros.exe",
+          "ros"
+      ]
+  ]
+}
